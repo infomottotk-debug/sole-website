@@ -1,0 +1,51 @@
+.menu-hero {
+  text-align: center;
+  padding-bottom: var(--space-sm);
+}
+
+.menu-hero__title {
+  font-family: var(--font-jp-heading);
+  font-size: 1.6rem;
+}
+
+.menu-list {
+  display: grid;
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .menu-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.menu-card {
+  border: 1px solid var(--color-sub);
+  border-radius: var(--border-radius);
+  padding: var(--space-md) var(--space-sm);
+  text-align: center;
+}
+
+.menu-card__name {
+  font-family: var(--font-jp-heading);
+  font-size: 1.1rem;
+  margin-bottom: var(--space-xs);
+}
+
+.menu-card__duration {
+  font-size: 0.85rem;
+  color: var(--color-sub);
+  margin-bottom: var(--space-sm);
+}
+
+.menu-card__price {
+  font-family: var(--font-en-heading);
+  font-size: 1.8rem;
+  color: var(--color-accent);
+  margin-bottom: var(--space-sm);
+}
+
+.menu-card__desc {
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
