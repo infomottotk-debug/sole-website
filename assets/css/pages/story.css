@@ -54,6 +54,22 @@
   font-size: 3rem;
 }
 
+.story-closing__link {
+  display: inline-block;
+  margin-top: var(--space-lg);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: var(--color-ink);
+  border-bottom: 1px solid var(--color-sub);
+  padding-bottom: 0.3em;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.story-closing__link:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
 @media (min-width: 768px) {
   .story-closing {
     padding-top: 9rem;
