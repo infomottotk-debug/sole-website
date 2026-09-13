@@ -45,6 +45,16 @@
   margin-bottom: var(--space-md);
 }
 
+.reserve-option__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.reserve-option__buttons .btn {
+  width: 100%;
+}
+
 .reserve-note {
   text-align: center;
   font-size: 0.8rem;
