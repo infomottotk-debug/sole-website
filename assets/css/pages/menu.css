@@ -8,6 +8,13 @@
   font-size: 1.6rem;
 }
 
+.menu-intro {
+  max-width: 34em;
+  margin: 0 auto var(--space-lg);
+  text-align: center;
+  font-size: 0.95rem;
+}
+
 .menu-list {
   display: grid;
   gap: var(--space-md);
@@ -47,5 +54,13 @@
 
 .menu-card__desc {
   font-size: 0.85rem;
+  margin-bottom: 0;
+}
+
+.menu-pressure-note {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--color-ink);
+  margin-top: var(--space-lg);
   margin-bottom: 0;
 }
